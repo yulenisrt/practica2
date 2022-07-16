@@ -1,0 +1,228 @@
+.backgroundBanner{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(39, 37, 37);
+    height: 450px; 
+    }
+
+.imgBanner{
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 350px; 
+    display: inline-block;
+}
+
+.textBanner{
+    margin-top: 50px;
+    width: 50%; 
+    height: 400px; 
+    display: inline; 
+    float: right;
+}
+
+.textBanner h2 , h5{
+    color: white;
+    display: inline; 
+}
+
+.textBanner h1{
+    font-weight: bolder;
+    font-size: 60px;
+    background:  linear-gradient(to left, blue, green);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.textBanner p{
+    color: white;
+    font-size: smaller;
+}
+
+.price{
+    font-size: 50px;
+}
+
+.descproducto{
+    display:flex;
+    justify-content: space-evenly;;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.informacion{
+    margin-top: 20px;
+}
+
+.informacion img{
+    display:block;
+    margin:auto;
+    width: 40px;
+    height: 40px;
+}
+.informacion h2{
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0052bd;
+}
+
+.informacion p{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+    font-size: small;
+}
+
+.sobreproducto{
+    width: 50%; 
+    background-color: #037bc0; 
+    height: 300px; 
+    display: inline-block;
+    
+    
+}
+.imgsobreTech{
+    width: 50%;
+    height: 300px; 
+    float: right;
+    object-fit: none;
+    object-position: right;
+}
+
+.textsobre{
+    margin-left: 180px;
+    margin-top: 100px;
+    margin-right: 20px;
+    color: #fff;
+   
+}
+
+.textsobre p{
+    line-height : 25px;
+    font-size: small;
+}
+
+.textsobre h2{
+    font-size: xx-large;
+}
+
+.textElige{
+    font-weight: bolder;
+    font-size: 30px;
+    background: linear-gradient(to right, blue, green);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.parentElige {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .informacionimg{
+    display:block;
+    margin:auto;
+    width: 40px;
+    height: 40px;
+}
+
+.gridProductos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+ /* incia en la fila X / en la columna Y /  ocupa XX filas y de ancho YY columna*/
+  .producto1{
+    display: grid;
+    grid-area: 1 / 2 / span 1 / span 2;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: subgrid;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .producto2{
+    display: grid;
+    grid-area: 2 / 2 / span 1 / span 2;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: subgrid;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+  }
+  .producto3{
+    display: grid;
+    grid-area: 1 / 4 / span 2 / span 2;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #037bc0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titleProd{
+    grid-area: 1 / 1 / span 1 / span 1;
+    color:black;
+  }
+  
+  .priceProd{
+    grid-area: 2 / 1 / span 1 / span 1;
+  }
+  .imgProd{
+    grid-area: 1 / 2 / span 2 / span 1;
+    
+    width: 50%;
+    height: 50%; 
+  }
+
+.imgnewsletter{
+    width: 50%;
+    height: 400px; 
+    display: inline-block;
+}
+
+.textNews{
+    width: 50%; 
+    height: 400px; 
+    display: flex; 
+    float: right;
+}
+.textNews1{
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+.textNews1 p{
+    font-size: small;
+}
+
+.textNews1 a{
+    color: white;
+    background-color: #037bc0;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.textNews1 input{
+    width: -webkit-fill-available;
+    height: 30px;
+}
+
+
+.footer{
+    text-align: center;
+    color: #037bc0;
+    text-transform: uppercase;
+}
+
+
+
